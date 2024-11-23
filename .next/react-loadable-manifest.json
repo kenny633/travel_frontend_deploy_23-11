@@ -1,0 +1,40 @@
+{
+  "app/createpost/page.js -> quill": {
+    "id": 1163,
+    "files": [
+      "static/chunks/163.a736d1f10b58c1a8.js"
+    ]
+  },
+  "app/createpost/page.js -> quill-image-resize": {
+    "id": 686,
+    "files": [
+      "static/chunks/e81aaacc.9f11d4c9937b80da.js"
+    ]
+  },
+  "app/createpost/page.js -> react-quill": {
+    "id": 8436,
+    "files": [
+      "static/chunks/cff4c5fa.ae6043e744329826.js",
+      "static/chunks/516.b4e5e3170932c023.js"
+    ]
+  },
+  "app/post/edit/[postId]/page.js -> quill": {
+    "id": 1163,
+    "files": [
+      "static/chunks/163.a736d1f10b58c1a8.js"
+    ]
+  },
+  "app/post/edit/[postId]/page.js -> quill-image-resize": {
+    "id": 686,
+    "files": [
+      "static/chunks/e81aaacc.9f11d4c9937b80da.js"
+    ]
+  },
+  "app/post/edit/[postId]/page.js -> react-quill": {
+    "id": 8436,
+    "files": [
+      "static/chunks/cff4c5fa.ae6043e744329826.js",
+      "static/chunks/516.b4e5e3170932c023.js"
+    ]
+  }
+}
