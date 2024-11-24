@@ -1,5 +1,5 @@
 import { getToken } from "./auth";
-const apiBaseURL = "http://localhost:3001";
+const apiBaseURL = process.env.NEXT_PUBLIC_BACKEND_URL;
 // const apiBaseURL = "https://fpbe-kognatkdz-colins-projects-3531ded3.vercel.app";
 async function request(url, options = {}, needToken = true) {
   // 设置默认请求头

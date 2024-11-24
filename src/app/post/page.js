@@ -13,7 +13,7 @@ const PostsPage = () => {
       setError(null); // Reset error state
 
       try {
-        const res = await fetch("http://localhost:3001/posts"); // Ensure this matches your API
+        const res = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/posts`); // Ensure this matches your API
         if (!res.ok) {
           throw new Error(`HTTP error! status: ${res.status}`);
         }
